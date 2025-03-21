@@ -1,0 +1,10 @@
+[project]
+name = "codecrate"
+version = "0.1.0"
+description = "Tiny personal scaffolding tool"
+authors = [{name = "Hannah", email = "ewkuydjai0649@hotmail.com"}]
+requires-python = ">=3.9"
+
+[project.scripts]
+codecrate = "crate.scaffold:main"
+

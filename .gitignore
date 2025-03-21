@@ -1,0 +1,10 @@
+node_modules
+.idea
+CLAUDE.md
+AGENTS.md
+venv/
+dist
+.DS_Store
+tmp/
+coverage/
+*.log
