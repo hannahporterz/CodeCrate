@@ -1,9 +1,9 @@
 import argparse
-import os
 from pathlib import Path
+from typing import Dict
 
 
-DEFAULT_FILES = {
+DEFAULT_FILES: Dict[str, str] = {
     "README.md": "# New Project\n\nShort description.\n",
     "LICENSE": "MIT License (placeholder)\n",
     ".gitignore": ".DS_Store\nnode_modules\nvenv/\n*.log\n",
@@ -33,4 +33,3 @@ def main(argv=None):
 
 if __name__ == "__main__":
     main()
-
