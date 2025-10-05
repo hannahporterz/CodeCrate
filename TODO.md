@@ -1,0 +1,3 @@
+- [ ] Add template choices (python, node)
+- [ ] Optional license selector
+- [ ] Dry-run flag
